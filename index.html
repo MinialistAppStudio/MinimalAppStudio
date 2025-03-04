@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minimalist App Studio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #fff;
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+    .hero {
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+    .app-section {
+      background-color: #fff;
+      padding: 30px;
+      margin: 40px 0;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .app-section h2 {
+      margin-bottom: 20px;
+      color: #007bff;
+    }
+    .app-section p {
+      margin-bottom: 15px;
+    }
+    .app-section ul {
+      list-style: disc inside;
+      margin: 10px 0;
+    }
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    footer a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav ul li {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Minimalist App Studio</h1>
+      <nav>
+        <ul>
+          <li><a href="#apps">Apps</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Simple. Engaging. Minimal.</h1>
+      <p>Your go-to studio for elegantly designed apps.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.supersimpleapps.sudoku&hl=en">Download Sudoku Offline</a>
+    </div>
+  </section>
+
+  <section id="apps" class="container">
+    <div class="app-section">
+      <h2>Sudoku Offline</h2>
+      <p><strong>Over 2 million downloads</strong></p>
+      <p>Welcome to Free Sudoku Offline Game. The best ever Brain game for Android—completely free and playable offline!</p>
+      <p>Dive into the world of Sudoku with over 10,000 puzzles across two unique grid types: the classic Standard board and the innovative Squiggly board. Whether you're a beginner or an expert, choose your challenge:</p>
+      <ul>
+        <li><strong>Easy</strong> for beginners</li>
+        <li><strong>Medium, Challenging, Hard</strong> for intermediates</li>
+        <li><strong>Fiendish</strong> for experts</li>
+      </ul>
+      <p>Features include:</p>
+      <ul>
+        <li>Two beautiful grid styles – Standard and Squiggly Sudoku</li>
+        <li>Light and Dark modes suitable for any setting</li>
+        <li>Auto-save, unlimited Undo/Redo, and an intuitive interface</li>
+        <li>Play by eliminating values and pencil marking</li>
+        <li>Error checking and a game timer</li>
+      </ul>
+      <p>Challenge yourself with a diverse selection of puzzles that you can enjoy anytime and anywhere—offline!</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.supersimpleapps.sudoku&hl=en">Download Now from Google Play</a>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <div class="app-section">
+      <h2>About Minimalist App Studio</h2>
+      <p>
+        At Minimalist App Studio, we are dedicated to creating elegant and engaging apps that simplify your digital experience.
+        We design with clean aesthetics and powerful functionality, ensuring that every app we publish brings something unique to your fingertips.
+      </p>
+      <p>
+        Follow us on <a href="https://www.facebook.com/profile.php?id=61573637211888" target="_blank">Facebook</a> for the latest updates and news.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <div class="app-section">
+      <h2>Contact Us</h2>
+      <p>
+        Have a question or need support? Reach out to us via email at 
+        <a href="mailto:tk.super.app@gmail.com">tk.super.app@gmail.com</a> 
+        or connect with us on social media.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Minimalist App Studio. All rights reserved.</p>
+      <p>Follow us on <a href="https://www.facebook.com/profile.php?id=61573637211888" target="_blank">Facebook</a></p>
+    </div>
+  </footer>
+</body>
+</html>
